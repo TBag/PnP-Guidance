@@ -4,7 +4,7 @@ Custom field type in the SharePoint add-in model
 Summary
 -------
 
-The approach you take to provide customized end user experiences is different in the new SharePoint Add-in model than it was with Full Trust Code. In a typical Full Trust Code (FTC) / Farm Solution scenario, custom field types were created with the SharePoint server-side object model code by inheriting from one of the built-in field type classes and creating a field type deployment file (XML). These components were deployed via SharePoint solutions. 
+The approach you take to provide customized end user experiences is different in the new SharePoint Add-in model than it was with Full Trust Code. In a typical Full Trust Code (FTC) / Farm Solution scenario, custom field types were created with the SharePoint server-side object model code by inheriting from one of the built-in field type classes and creating a field type deployment file (XML). These components were deployed via SharePoint solutions.  
 
 In a SharePoint Add-ins model scenario, customized end user experiences are implemented via client-side rendering. In this approach, JavaScript files are used to implement customized end user experiences. The remote provisioning pattern deploys the JavaScript files and registers them with SharePoint fields via the JSLink property.
 
